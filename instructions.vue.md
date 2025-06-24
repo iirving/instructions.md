@@ -2,6 +2,8 @@
 applyTo: "**/*.vue, **/*.js"
 ---
 
+description: GitHub Copilot Guidelines for Vue
+
 # GitHub Copilot Guidelines for Vue
 
 ## Code Style
