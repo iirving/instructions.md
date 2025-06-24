@@ -1,3 +1,7 @@
+---
+applyTo: "**/*.vue", "**/*.js"
+---
+
 # GitHub Copilot Guidelines for Vue
 
 ## Code Style
@@ -22,7 +26,7 @@
 
 - Make sure to always use Package.json scripts when running test
 
-- Check test coverage, write test cases to get atleast 90% of coverage
+- Check test coverage, write test cases to get at least 90% of coverage
 
 ## Best Practices
 
