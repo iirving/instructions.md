@@ -2,6 +2,45 @@
 applyTo: "**/*.rb"
 ---
 
+# Modern Rails 8 Application
+
+This is a Rails 8 application built with modern practices including Turbo, Stimulus, and Solid Queue. Follow these guidelines for all code generation:
+
+## General Coding Guidelines
+
+- Use semantic and clean HTML in ERB templates
+- Follow Ruby style conventions (2-space indentation, snake_case methods)
+- Use Turbo for page transitions and dynamic updates
+- Implement Stimulus controllers for interactive elements
+- Utilize Tailwind CSS for styling with component-based design
+- Keep controllers thin, move logic to service objects when appropriate
+- Use Import Maps for JavaScript dependency management
+- Use Solid Queue for background job processing
+- Follow Kamal deployment best practices for production
+
+## Technology Stack
+
+- Rails 8.0
+- Ruby 3.3+
+- Turbo & Stimulus (Hotwire)
+- Solid Queue
+- Kamal for deployment
+- SQLite
+- Tailwind CSS
+- Import Maps for JavaScript management
+
+## Project Architecture
+
+This application follows a standard Rails structure with some specific organization:
+
+- Controllers are minimal and focused on presentation
+- Service objects handle complex business logic
+- Background jobs process asynchronous tasks
+- Use Turbo and Stimulus for interactive components
+- Prefer Import Maps over bundlers for JavaScript dependency management
+- Follow Rails conventions for file structure and naming
+- Use SQLite for development and PostgreSQL for production
+
 # Rails 8 Coding Standards
 
 ## Framework Best Practices
